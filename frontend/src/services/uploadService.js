@@ -1,6 +1,7 @@
+import { API_BASE_URL, ENDPOINTS } from '../config/api.js';
+
 // Xử lý upload ảnh
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
-const API_URL = `${API_BASE}/upload`;
+const API_URL = `${API_BASE_URL}${ENDPOINTS.UPLOAD.IMAGE}`;
 
 export async function uploadImage(file, token) {
   const formData = new FormData();
