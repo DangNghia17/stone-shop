@@ -4,6 +4,7 @@
   "description": "Frontend for StoneShop - Đá mỹ nghệ",
   "scripts": {
     "dev": "parcel src/index.html --open",
+    "prebuild": "node build.js",
     "build": "parcel build src/index.html --dist-dir dist"
   },
   "dependencies": {
