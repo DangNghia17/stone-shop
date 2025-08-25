@@ -1,18 +1,18 @@
-// API Configuration - Sử dụng relative paths để tránh lộ API endpoints
+// API Configuration - Sử dụng environment variables
 const API_CONFIG = {
   development: {
-    baseURL: '/api',
-    uploadURL: '/api/upload'
+    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+    uploadURL: import.meta.env.VITE_UPLOAD_URL || 'http://localhost:5000/api/upload'
   },
   production: {
-    // Sử dụng relative paths - sẽ tự động trỏ đến domain hiện tại
-    baseURL: '/api',
-    uploadURL: '/api/upload'
+    // Sử dụng environment variables từ Vercel
+    baseURL: import.meta.env.VITE_API_URL || '/api',
+    uploadURL: import.meta.env.VITE_UPLOAD_URL || '/api/upload'
   }
 };
 
 // Tự động chọn config dựa trên môi trường
-const isProduction = window.location.hostname !== 'localhost';
+const isProduction = import.meta.env.PROD;
 const currentConfig = isProduction ? API_CONFIG.production : API_CONFIG.development;
 
 export const API_BASE_URL = currentConfig.baseURL;
