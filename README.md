@@ -158,6 +158,26 @@ Pagination.createPaginationControls()
 
 ## 🚀 Deployment
 
+### 🌐 Đa Môi Trường (Multi-Environment)
+
+Dự án hỗ trợ triển khai đa môi trường để xem cả hai phiên bản:
+
+#### 📋 Các Phiên Bản Available:
+- **🏭 Production** (`production` branch): Phiên bản chính thức đã deploy (giao diện ổn định)
+- **🧪 Staging** (`staging` branch): Phiên bản thử nghiệm với giao diện nâng cấp
+
+#### 🔄 Chuyển Đổi Phiên Bản Local:
+```bash
+# Xem phiên bản production (giao diện cũ)
+./switch-version.sh production
+
+# Xem phiên bản staging (giao diện mới)
+./switch-version.sh staging
+```
+
+#### 🌐 Deploy lên Vercel:
+Xem hướng dẫn chi tiết tại: **[DEPLOYMENT.md](./DEPLOYMENT.md)**
+
 ### GitHub Pages
 1. Push code lên GitHub
 2. Enable GitHub Pages trong Settings
