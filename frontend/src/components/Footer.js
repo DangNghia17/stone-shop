@@ -1,18 +1,20 @@
 // Footer Component
+import logowebPng from '../logoweb.png';
+
 export default function renderFooter() {
   return `
     <footer class="bg-gray-900 text-white">
       <div class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <!-- Company Info -->
-          <div class="space-y-4">
-            <div class="flex items-center space-x-3">
-              <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden">
-                <img src="logoweb.png" alt="Đá mỹ nghệ Hiếu Liên" class="w-full h-full object-contain">
+          <div class="col-span-1 md:col-span-2">
+            <div class="flex items-center space-x-3 mb-4">
+              <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="${logowebPng}" alt="Đá mỹ nghệ Hiếu Liên" class="w-full h-full object-contain">
               </div>
               <div>
                 <h3 class="text-xl font-bold">Đá mỹ nghệ Hiếu Liên</h3>
-                <p class="text-sm text-gray-400">Chất lượng - Uy tín - Độ bền</p>
+                <p class="text-gray-300">Chất lượng - Uy tín - Độ bền</p>
               </div>
             </div>
             <p class="text-gray-400 text-sm leading-relaxed">
