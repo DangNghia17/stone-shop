@@ -1,13 +1,13 @@
-// API Configuration
+// API Configuration - Sử dụng relative paths để tránh lộ API endpoints
 const API_CONFIG = {
   development: {
-    baseURL: 'http://localhost:5000/api',
-    uploadURL: 'http://localhost:5000/api/upload'
+    baseURL: '/api',
+    uploadURL: '/api/upload'
   },
   production: {
-    // Thay thế bằng URL backend Vercel của bạn
-    baseURL: 'https://your-backend-project.vercel.app/api',
-    uploadURL: 'https://your-backend-project.vercel.app/api/upload'
+    // Sử dụng relative paths - sẽ tự động trỏ đến domain hiện tại
+    baseURL: '/api',
+    uploadURL: '/api/upload'
   }
 };
 
