@@ -1,6 +1,4 @@
 // Header Component
-import logowebPng from '../logoweb.png';
-
 export default function renderHeader() {
   return `
     <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg sticky top-0 z-50">
@@ -9,7 +7,7 @@ export default function renderHeader() {
           <!-- Logo -->
           <div class="flex items-center space-x-3">
             <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden">
-              <img src="${logowebPng}" alt="Đá mỹ nghệ Hiếu Liên" class="w-full h-full object-contain">
+              <img src="logoweb.png" alt="Đá mỹ nghệ Hiếu Liên" class="w-full h-full object-contain">
             </div>
             <div>
               <h1 class="text-xl font-bold">Đá mỹ nghệ Hiếu Liên</h1>
