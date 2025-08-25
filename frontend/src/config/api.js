@@ -1,4 +1,4 @@
-// API Configuration - Local sử dụng localhost, Production sử dụng .env
+// API Configuration - Sử dụng Parcel's built-in environment variable replacement
 const API_CONFIG = {
   development: {
     baseURL: 'http://localhost:5000/api',
@@ -6,11 +6,15 @@ const API_CONFIG = {
   }
 };
 
-// Production config - chỉ được tạo khi cần thiết
+// Production config - sử dụng Parcel's built-in replacement
 function getProductionConfig() {
+  // Parcel sẽ thay thế các biến này khi build
+  const API_URL = 'API_URL';
+  const UPLOAD_URL = 'UPLOAD_URL';
+  
   return {
-    baseURL: process.env.API_URL || '/api',
-    uploadURL: process.env.UPLOAD_URL || '/api/upload'
+    baseURL: API_URL || '/api',
+    uploadURL: UPLOAD_URL || '/api/upload'
   };
 }
 
