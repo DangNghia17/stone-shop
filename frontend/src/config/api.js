@@ -1,13 +1,13 @@
-// API Configuration - Sử dụng Parcel 2+ environment variables với prefix PARCEL_
+// API Configuration - Frontend gọi trực tiếp backend
 const API_CONFIG = {
   development: {
     baseURL: 'http://localhost:5000/api',
     uploadURL: 'http://localhost:5000/api/upload'
   },
   production: {
-    // Parcel 2+ cần prefix PARCEL_ để expose biến ra frontend
-    baseURL: process.env.PARCEL_API_URL || '/api',
-    uploadURL: process.env.PARCEL_UPLOAD_URL || '/api/upload'
+    // Production gọi backend Vercel - URLs được ẩn trong environment
+    baseURL: '/api',
+    uploadURL: '/api/upload'
   }
 };
 
