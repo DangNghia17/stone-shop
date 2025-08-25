@@ -6,8 +6,8 @@ const API_CONFIG = {
   },
   production: {
     // Production gọi backend Vercel - URLs được ẩn trong environment
-    baseURL: '/api',
-    uploadURL: '/api/upload'
+    baseURL: 'https://stone-shop-serverless.vercel.app/api',
+    uploadURL: 'https://stone-shop-serverless.vercel.app/api/upload'
   }
 };
 
