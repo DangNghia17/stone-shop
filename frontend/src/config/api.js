@@ -1,18 +1,18 @@
-// API Configuration - Sử dụng environment variables
+// API Configuration - Sử dụng Parcel environment variables
 const API_CONFIG = {
   development: {
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
-    uploadURL: import.meta.env.VITE_UPLOAD_URL || 'http://localhost:5000/api/upload'
+    baseURL: 'http://localhost:5000/api',
+    uploadURL: 'http://localhost:5000/api/upload'
   },
   production: {
     // Sử dụng environment variables từ Vercel
-    baseURL: import.meta.env.VITE_API_URL || '/api',
-    uploadURL: import.meta.env.VITE_UPLOAD_URL || '/api/upload'
+    baseURL: process.env.API_URL || '/api',
+    uploadURL: process.env.UPLOAD_URL || '/api/upload'
   }
 };
 
 // Tự động chọn config dựa trên môi trường
-const isProduction = import.meta.env.PROD;
+const isProduction = window.location.hostname !== 'localhost';
 const currentConfig = isProduction ? API_CONFIG.production : API_CONFIG.development;
 
 export const API_BASE_URL = currentConfig.baseURL;
