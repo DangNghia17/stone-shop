@@ -13,7 +13,7 @@ export default function renderProjectsSection() {
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Tượng+Lân+Đá+Tự+Nhiên"
+              <img src="https://i.pinimg.com/736x/bd/bc/6c/bdbc6ce08f6819605ab40dade4cab135.jpg"
                    alt="Tượng Lân Đá Tự Nhiên"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -32,7 +32,7 @@ export default function renderProjectsSection() {
 
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Bàn+Thờ+Đá+Tự+Nhiên"
+              <img src="https://image.made-in-china.com/202f0j00TobhsDutvlrV/Natural-Stone-New-Design-Large-White-Marble-Altar-with-Church-Supplies-for-Sale.webp"
                    alt="Bàn Thờ Đá Tự Nhiên"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -51,7 +51,7 @@ export default function renderProjectsSection() {
 
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Đài+Phun+Nước+Đá"
+              <img src="https://cpimg.tistatic.com/09603547/b/4/Modern-Large-Decorative-Stone-Carving-Outdoor-Water-Fountain.jpg"
                    alt="Đài Phun Nước Đá"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -70,7 +70,7 @@ export default function renderProjectsSection() {
 
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Cột+Đá+Trang+Trí"
+              <img src="https://image.made-in-china.com/2f0j00cSahIBnRZCqu/Outdoor-Natural-Stone-Roman-Pillars-Building-Material-Hand-Carved-Polished-Italy-Marble-Solid-Roman-Column.webp"
                    alt="Cột Đá Trang Trí"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -89,7 +89,7 @@ export default function renderProjectsSection() {
 
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Lư+Hương+Đá+Tự+Nhiên"
+              <img src="https://i.etsystatic.com/42888753/r/il/5f1b60/6471523395/il_570xN.6471523395_knb3.jpg"
                    alt="Lư Hương Đá Tự Nhiên"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -108,7 +108,7 @@ export default function renderProjectsSection() {
 
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
             <div class="relative">
-              <img src="https://via.placeholder.com/400x250?text=Tượng+Phật+Đá+Tự+Nhiên"
+              <img src="https://i.ebayimg.com/images/g/EkEAAeSwvQ9oj0j5/s-l400.jpg"
                    alt="Tượng Phật Đá Tự Nhiên"
                    class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500">
               <div class="absolute top-4 right-4 bg-indigo-500 text-white px-3 py-1 rounded-full text-sm font-semibold">

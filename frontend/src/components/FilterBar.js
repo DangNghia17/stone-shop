@@ -10,9 +10,10 @@ export default function renderFilterBar(categories, sizes, colors) {
             <h2 class="text-xl font-semibold text-gray-800">Lọc Sản Phẩm</h2>
           </div>
           
-          <button class="filter-btn bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center space-x-2 whitespace-nowrap">
+          <button class="filter-btn bg-gray-600 hover:bg-gray-700 text-white px-3 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-colors duration-200 flex items-center space-x-2 whitespace-nowrap text-sm sm:text-base">
             <i class="fas fa-times"></i>
-            <span>Xóa Bộ Lọc</span>
+            <span class="hidden sm:inline">Xóa Bộ Lọc</span>
+            <span class="sm:hidden">Xóa bộ lọc</span>
           </button>
         </div>
 

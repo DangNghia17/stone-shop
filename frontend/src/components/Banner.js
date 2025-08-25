@@ -30,26 +30,26 @@ export default function renderBanner() {
               <a href="https://maps.app.goo.gl/DfteghNXhnSc15237" 
                  target="_blank" 
                  rel="noopener noreferrer"
-                 class="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-3 btn-animate">
-                <i class="fas fa-map-marker-alt text-xl group-hover:scale-110 transition-transform duration-300"></i>
-                <span>Xem Vị Trí Cửa Hàng & Xưởng Sản Xuất</span>
+                 class="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 sm:space-x-3 btn-animate text-center">
+                <i class="fas fa-map-marker-alt text-lg sm:text-xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0"></i>
+                <span class="text-sm sm:text-base leading-tight">Xem Vị Trí Cửa Hàng & Xưởng Sản Xuất</span>
               </a>
             </div>
             
             <!-- Contact Buttons Row -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="#/contact" 
-                 class="group bg-white text-gray-800 px-6 py-3 rounded-full text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-colors duration-300 border-2 border-gray-200 hover:border-blue-300 flex items-center space-x-3 btn-animate">
-                <i class="fas fa-envelope text-xl group-hover:scale-110 transition-transform duration-300"></i>
-                <span>Hãy để chúng tôi liên lạc với bạn tại đây!!</span>
+                 class="group bg-white text-gray-800 px-4 sm:px-6 py-3 rounded-full text-base sm:text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-colors duration-300 border-2 border-gray-200 hover:border-blue-300 flex items-center space-x-2 sm:space-x-3 btn-animate text-center">
+                <i class="fas fa-envelope text-lg sm:text-xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0"></i>
+                <span class="text-sm sm:text-base leading-tight">Hãy để chúng tôi liên lạc với bạn tại đây!!</span>
               </a>
               
               <a href="https://zalo.me/0914629031" 
                  target="_blank" 
                  rel="noopener noreferrer"
-                 class="group bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-3 btn-animate">
-                <i class="fas fa-comments text-xl group-hover:scale-110 transition-transform duration-300"></i>
-                <span>Chat Zalo Ngay !!</span>
+                 class="group bg-blue-500 text-white px-4 sm:px-6 py-3 rounded-full text-base sm:text-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 sm:space-x-3 btn-animate text-center">
+                <i class="fas fa-comments text-lg sm:text-xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0"></i>
+                <span class="text-sm sm:text-base leading-tight">Chat Zalo Ngay !!</span>
               </a>
             </div>
           </div>
@@ -57,13 +57,13 @@ export default function renderBanner() {
           <!-- Contact Info -->
           <div class="mt-8 text-center">
             <div class="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-8 text-gray-600">
-              <div class="flex items-center">
-                <i class="fas fa-map-marker-alt text-blue-600 mr-2"></i>
-                <span><strong>Địa chỉ:</strong> 8C Nguyễn Duy Trinh, Phường Ngũ Hành Sơn, TP. Đà Nẵng</span>
+              <div class="flex items-center justify-center">
+                <i class="fas fa-map-marker-alt text-blue-600 mr-2 flex-shrink-0"></i>
+                <span class="text-left"><strong>Địa chỉ:</strong> 8C Nguyễn Duy Trinh, Phường Ngũ Hành Sơn, TP. Đà Nẵng</span>
               </div>
-              <div class="flex items-center">
-                <i class="fas fa-phone text-green-600 mr-2"></i>
-                <span><strong>Zalo:</strong> 0934.714.037 / 0914.629.031</span>
+              <div class="flex items-center justify-center">
+                <i class="fas fa-phone text-green-600 mr-2 flex-shrink-0"></i>
+                <span class="text-left"><strong>Zalo:</strong> 0934.714.037 / 0914.629.031</span>
               </div>
             </div>
             <p class="text-gray-500 text-base mt-4">

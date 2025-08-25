@@ -64,29 +64,29 @@ export default function renderProcessSection() {
             <!-- Statistics Section at Bottom -->
             <div class="border-t border-gray-200 pt-4">
               <h3 class="text-center text-lg font-semibold text-gray-700 mb-4">Thống Kê Nổi Bật</h3>
-              <div class="grid grid-cols-5 gap-3">
-                <div class="text-center p-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
-                  <div class="text-xl font-bold mb-1">20,000+</div>
+              <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3">
+                <div class="text-center p-2 sm:p-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
+                  <div class="text-lg sm:text-xl font-bold mb-1">20,000+</div>
                   <div class="text-xs text-green-100">Sản phẩm</div>
                 </div>
                 
-                <div class="text-center p-3 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
-                  <div class="text-xl font-bold mb-1">25+</div>
+                <div class="text-center p-2 sm:p-3 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
+                  <div class="text-lg sm:text-xl font-bold mb-1">25+</div>
                   <div class="text-xs text-blue-100">Năm</div>
                 </div>
                 
-                <div class="text-center p-3 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
-                  <div class="text-xl font-bold mb-1">2,500+</div>
+                <div class="text-center p-2 sm:p-3 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
+                  <div class="text-lg sm:text-xl font-bold mb-1">2,500+</div>
                   <div class="text-xs text-purple-100">Khách hàng</div>
                 </div>
                 
-                <div class="text-center p-3 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
-                  <div class="text-xl font-bold mb-1">63</div>
+                <div class="text-center p-2 sm:p-3 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
+                  <div class="text-lg sm:text-xl font-bold mb-1">63</div>
                   <div class="text-xs text-orange-100">Tỉnh</div>
                 </div>
                 
-                <div class="text-center p-3 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
-                  <div class="text-xl font-bold mb-1">98%</div>
+                <div class="text-center p-2 sm:p-3 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white hover:-translate-y-1 transition-transform duration-300">
+                  <div class="text-lg sm:text-xl font-bold mb-1">98%</div>
                   <div class="text-xs text-red-100">Hài lòng</div>
                 </div>
               </div>
